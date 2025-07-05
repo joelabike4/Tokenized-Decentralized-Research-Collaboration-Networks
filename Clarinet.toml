@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/data-sharing.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.funding-distribution]
+path = 'contracts/funding-distribution.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
